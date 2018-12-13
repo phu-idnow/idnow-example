@@ -1,0 +1,1056 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB9855DF179DB87B7CDBD5E /* Pods_DemoIDNowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFD7EA00CDF8D8BCBF46CD9 /* Pods_DemoIDNowTests.framework */; };
+		5A76873D21C2094500B72F8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76873C21C2094500B72F8C /* AppDelegate.swift */; };
+		5A76873F21C2094500B72F8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76873E21C2094500B72F8C /* ViewController.swift */; };
+		5A76874221C2094500B72F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A76874021C2094500B72F8C /* Main.storyboard */; };
+		5A76874421C2094600B72F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A76874321C2094600B72F8C /* Assets.xcassets */; };
+		5A76874721C2094600B72F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A76874521C2094600B72F8C /* LaunchScreen.storyboard */; };
+		5A76875221C2094600B72F8C /* DemoIDNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76875121C2094600B72F8C /* DemoIDNowTests.swift */; };
+		5A76875D21C2094600B72F8C /* DemoIDNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76875C21C2094600B72F8C /* DemoIDNowUITests.swift */; };
+		5A76876D21C2163E00B72F8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76873E21C2094500B72F8C /* ViewController.swift */; };
+		5A76876E21C2163E00B72F8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76873C21C2094500B72F8C /* AppDelegate.swift */; };
+		5A76877021C2163E00B72F8C /* Pods_DemoIDNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7CC0D78BC3D8A4F80E114E /* Pods_DemoIDNow.framework */; };
+		5A76877221C2163E00B72F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A76874521C2094600B72F8C /* LaunchScreen.storyboard */; };
+		5A76877321C2163E00B72F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A76874321C2094600B72F8C /* Assets.xcassets */; };
+		5A76877421C2163E00B72F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A76874021C2094500B72F8C /* Main.storyboard */; };
+		6FBA5883A7D09AF30159FD68 /* Pods_DemoIDNowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE7D6120A34FB8FF40DA604 /* Pods_DemoIDNowUITests.framework */; };
+		74A876950621B97F491ECB68 /* Pods_DemoIDNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7CC0D78BC3D8A4F80E114E /* Pods_DemoIDNow.framework */; };
+		BB9B32DCDEAF107FBDCA9BF6 /* Pods_DemoIDNow2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85BE14AE2A868EC5AFEA3F6 /* Pods_DemoIDNow2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A76874E21C2094600B72F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A76873121C2094500B72F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A76873821C2094500B72F8C;
+			remoteInfo = DemoIDNow;
+		};
+		5A76875921C2094600B72F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A76873121C2094500B72F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A76873821C2094500B72F8C;
+			remoteInfo = DemoIDNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039117CCBB01B05CE68A9EC8 /* Pods-DemoIDNow2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNow2.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNow2/Pods-DemoIDNow2.release.xcconfig"; sourceTree = "<group>"; };
+		09C1930A778834ABE0FAF604 /* Pods-DemoIDNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNow/Pods-DemoIDNow.debug.xcconfig"; sourceTree = "<group>"; };
+		34650CE8A5DD0AF7937B3EA8 /* Pods-DemoIDNow2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNow2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNow2/Pods-DemoIDNow2.debug.xcconfig"; sourceTree = "<group>"; };
+		52AA93731AAE732C524A2315 /* Pods-DemoIDNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNowUITests/Pods-DemoIDNowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A76873921C2094500B72F8C /* DemoIDNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoIDNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A76873C21C2094500B72F8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A76873E21C2094500B72F8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A76874121C2094500B72F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A76874321C2094600B72F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A76874621C2094600B72F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A76874821C2094600B72F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A76874D21C2094600B72F8C /* DemoIDNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoIDNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A76875121C2094600B72F8C /* DemoIDNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIDNowTests.swift; sourceTree = "<group>"; };
+		5A76875321C2094600B72F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A76875821C2094600B72F8C /* DemoIDNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoIDNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A76875C21C2094600B72F8C /* DemoIDNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIDNowUITests.swift; sourceTree = "<group>"; };
+		5A76875E21C2094600B72F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A76877A21C2163E00B72F8C /* DemoIDNow2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoIDNow2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A76877B21C2163E00B72F8C /* DemoIDNow copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DemoIDNow copy-Info.plist"; path = "/Users/phunguyen/Documents/Projects/IDNow/temp/DemoIDNow/DemoIDNow copy-Info.plist"; sourceTree = "<absolute>"; };
+		7448230D3ED9D1A679D457BC /* Pods-DemoIDNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNow.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNow/Pods-DemoIDNow.release.xcconfig"; sourceTree = "<group>"; };
+		8AFD7EA00CDF8D8BCBF46CD9 /* Pods_DemoIDNowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoIDNowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7CC0D78BC3D8A4F80E114E /* Pods_DemoIDNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoIDNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDBC937C004C7B85892D225 /* Pods-DemoIDNowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNowTests/Pods-DemoIDNowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE7D6120A34FB8FF40DA604 /* Pods_DemoIDNowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoIDNowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85BE14AE2A868EC5AFEA3F6 /* Pods_DemoIDNow2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoIDNow2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF9182ED4B926263AAB9F83 /* Pods-DemoIDNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNowUITests/Pods-DemoIDNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E8F0D5478A1D5715329408 /* Pods-DemoIDNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoIDNowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoIDNowTests/Pods-DemoIDNowTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A76873621C2094500B72F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A876950621B97F491ECB68 /* Pods_DemoIDNow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76874A21C2094600B72F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB9855DF179DB87B7CDBD5E /* Pods_DemoIDNowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76875521C2094600B72F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBA5883A7D09AF30159FD68 /* Pods_DemoIDNowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76876F21C2163E00B72F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76877021C2163E00B72F8C /* Pods_DemoIDNow.framework in Frameworks */,
+				BB9B32DCDEAF107FBDCA9BF6 /* Pods_DemoIDNow2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E811832DA89D76BF277493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C1930A778834ABE0FAF604 /* Pods-DemoIDNow.debug.xcconfig */,
+				7448230D3ED9D1A679D457BC /* Pods-DemoIDNow.release.xcconfig */,
+				8EDBC937C004C7B85892D225 /* Pods-DemoIDNowTests.debug.xcconfig */,
+				E5E8F0D5478A1D5715329408 /* Pods-DemoIDNowTests.release.xcconfig */,
+				CFF9182ED4B926263AAB9F83 /* Pods-DemoIDNowUITests.debug.xcconfig */,
+				52AA93731AAE732C524A2315 /* Pods-DemoIDNowUITests.release.xcconfig */,
+				34650CE8A5DD0AF7937B3EA8 /* Pods-DemoIDNow2.debug.xcconfig */,
+				039117CCBB01B05CE68A9EC8 /* Pods-DemoIDNow2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28FABE5FFA60AF8AC041825A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C7CC0D78BC3D8A4F80E114E /* Pods_DemoIDNow.framework */,
+				8AFD7EA00CDF8D8BCBF46CD9 /* Pods_DemoIDNowTests.framework */,
+				ABE7D6120A34FB8FF40DA604 /* Pods_DemoIDNowUITests.framework */,
+				C85BE14AE2A868EC5AFEA3F6 /* Pods_DemoIDNow2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A76873021C2094500B72F8C = {
+			isa = PBXGroup;
+			children = (
+				5A76873B21C2094500B72F8C /* DemoIDNow */,
+				5A76875021C2094600B72F8C /* DemoIDNowTests */,
+				5A76875B21C2094600B72F8C /* DemoIDNowUITests */,
+				5A76873A21C2094500B72F8C /* Products */,
+				21E811832DA89D76BF277493 /* Pods */,
+				28FABE5FFA60AF8AC041825A /* Frameworks */,
+				5A76877B21C2163E00B72F8C /* DemoIDNow copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		5A76873A21C2094500B72F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A76873921C2094500B72F8C /* DemoIDNow.app */,
+				5A76874D21C2094600B72F8C /* DemoIDNowTests.xctest */,
+				5A76875821C2094600B72F8C /* DemoIDNowUITests.xctest */,
+				5A76877A21C2163E00B72F8C /* DemoIDNow2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A76873B21C2094500B72F8C /* DemoIDNow */ = {
+			isa = PBXGroup;
+			children = (
+				5A76873C21C2094500B72F8C /* AppDelegate.swift */,
+				5A76873E21C2094500B72F8C /* ViewController.swift */,
+				5A76874021C2094500B72F8C /* Main.storyboard */,
+				5A76874321C2094600B72F8C /* Assets.xcassets */,
+				5A76874521C2094600B72F8C /* LaunchScreen.storyboard */,
+				5A76874821C2094600B72F8C /* Info.plist */,
+			);
+			path = DemoIDNow;
+			sourceTree = "<group>";
+		};
+		5A76875021C2094600B72F8C /* DemoIDNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A76875121C2094600B72F8C /* DemoIDNowTests.swift */,
+				5A76875321C2094600B72F8C /* Info.plist */,
+			);
+			path = DemoIDNowTests;
+			sourceTree = "<group>";
+		};
+		5A76875B21C2094600B72F8C /* DemoIDNowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A76875C21C2094600B72F8C /* DemoIDNowUITests.swift */,
+				5A76875E21C2094600B72F8C /* Info.plist */,
+			);
+			path = DemoIDNowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A76873821C2094500B72F8C /* DemoIDNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A76876121C2094600B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNow" */;
+			buildPhases = (
+				04ED44182194C42B23CB9846 /* [CP] Check Pods Manifest.lock */,
+				5A76873521C2094500B72F8C /* Sources */,
+				5A76873621C2094500B72F8C /* Frameworks */,
+				5A76873721C2094500B72F8C /* Resources */,
+				F3B8DCF2CF970FB7D3B6D9D8 /* [CP] Embed Pods Frameworks */,
+				D420FCA155952EB8CB1BCE00 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIDNow;
+			productName = DemoIDNow;
+			productReference = 5A76873921C2094500B72F8C /* DemoIDNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A76874C21C2094600B72F8C /* DemoIDNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A76876421C2094600B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNowTests" */;
+			buildPhases = (
+				25B96347AA7C7DD4E4A45E28 /* [CP] Check Pods Manifest.lock */,
+				5A76874921C2094600B72F8C /* Sources */,
+				5A76874A21C2094600B72F8C /* Frameworks */,
+				5A76874B21C2094600B72F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A76874F21C2094600B72F8C /* PBXTargetDependency */,
+			);
+			name = DemoIDNowTests;
+			productName = DemoIDNowTests;
+			productReference = 5A76874D21C2094600B72F8C /* DemoIDNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A76875721C2094600B72F8C /* DemoIDNowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A76876721C2094600B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNowUITests" */;
+			buildPhases = (
+				14664AD63DA01BC48DA30E41 /* [CP] Check Pods Manifest.lock */,
+				5A76875421C2094600B72F8C /* Sources */,
+				5A76875521C2094600B72F8C /* Frameworks */,
+				5A76875621C2094600B72F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A76875A21C2094600B72F8C /* PBXTargetDependency */,
+			);
+			name = DemoIDNowUITests;
+			productName = DemoIDNowUITests;
+			productReference = 5A76875821C2094600B72F8C /* DemoIDNowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5A76876A21C2163E00B72F8C /* DemoIDNow2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A76877721C2163E00B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNow2" */;
+			buildPhases = (
+				5A76876B21C2163E00B72F8C /* [CP] Check Pods Manifest.lock */,
+				5A76876C21C2163E00B72F8C /* Sources */,
+				5A76876F21C2163E00B72F8C /* Frameworks */,
+				5A76877121C2163E00B72F8C /* Resources */,
+				5A76877521C2163E00B72F8C /* [CP] Embed Pods Frameworks */,
+				5A76877621C2163E00B72F8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIDNow2;
+			productName = DemoIDNow;
+			productReference = 5A76877A21C2163E00B72F8C /* DemoIDNow2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A76873121C2094500B72F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = anonymous;
+				TargetAttributes = {
+					5A76873821C2094500B72F8C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5A76874C21C2094600B72F8C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5A76873821C2094500B72F8C;
+					};
+					5A76875721C2094600B72F8C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5A76873821C2094500B72F8C;
+					};
+				};
+			};
+			buildConfigurationList = 5A76873421C2094500B72F8C /* Build configuration list for PBXProject "DemoIDNow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A76873021C2094500B72F8C;
+			productRefGroup = 5A76873A21C2094500B72F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A76873821C2094500B72F8C /* DemoIDNow */,
+				5A76876A21C2163E00B72F8C /* DemoIDNow2 */,
+				5A76874C21C2094600B72F8C /* DemoIDNowTests */,
+				5A76875721C2094600B72F8C /* DemoIDNowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A76873721C2094500B72F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76874721C2094600B72F8C /* LaunchScreen.storyboard in Resources */,
+				5A76874421C2094600B72F8C /* Assets.xcassets in Resources */,
+				5A76874221C2094500B72F8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76874B21C2094600B72F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76875621C2094600B72F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76877121C2163E00B72F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76877221C2163E00B72F8C /* LaunchScreen.storyboard in Resources */,
+				5A76877321C2163E00B72F8C /* Assets.xcassets in Resources */,
+				5A76877421C2163E00B72F8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04ED44182194C42B23CB9846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoIDNow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14664AD63DA01BC48DA30E41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoIDNowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25B96347AA7C7DD4E4A45E28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoIDNowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A76876B21C2163E00B72F8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoIDNow2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A76877521C2163E00B72F8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow2/Pods-DemoIDNow2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow2/Pods-DemoIDNow2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A76877621C2163E00B72F8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow2/Pods-DemoIDNow2-resources.sh",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowImages.xcassets",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowSDKLocalization.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowSDKLocalization.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow2/Pods-DemoIDNow2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D420FCA155952EB8CB1BCE00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow/Pods-DemoIDNow-resources.sh",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowImages.xcassets",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowSDKLocalization.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowSDKLocalization.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow/Pods-DemoIDNow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B8DCF2CF970FB7D3B6D9D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow/Pods-DemoIDNow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoIDNow/Pods-DemoIDNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A76873521C2094500B72F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76873F21C2094500B72F8C /* ViewController.swift in Sources */,
+				5A76873D21C2094500B72F8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76874921C2094600B72F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76875221C2094600B72F8C /* DemoIDNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76875421C2094600B72F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76875D21C2094600B72F8C /* DemoIDNowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76876C21C2163E00B72F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76876D21C2163E00B72F8C /* ViewController.swift in Sources */,
+				5A76876E21C2163E00B72F8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A76874F21C2094600B72F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A76873821C2094500B72F8C /* DemoIDNow */;
+			targetProxy = 5A76874E21C2094600B72F8C /* PBXContainerItemProxy */;
+		};
+		5A76875A21C2094600B72F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A76873821C2094500B72F8C /* DemoIDNow */;
+			targetProxy = 5A76875921C2094600B72F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A76874021C2094500B72F8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A76874121C2094500B72F8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A76874521C2094600B72F8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A76874621C2094600B72F8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A76875F21C2094600B72F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A76876021C2094600B72F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A76876221C2094600B72F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C1930A778834ABE0FAF604 /* Pods-DemoIDNow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRTCB5WQ93;
+				INFOPLIST_FILE = DemoIDNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A76876321C2094600B72F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7448230D3ED9D1A679D457BC /* Pods-DemoIDNow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRTCB5WQ93;
+				INFOPLIST_FILE = DemoIDNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A76876521C2094600B72F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDBC937C004C7B85892D225 /* Pods-DemoIDNowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoIDNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoIDNow.app/DemoIDNow";
+			};
+			name = Debug;
+		};
+		5A76876621C2094600B72F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E8F0D5478A1D5715329408 /* Pods-DemoIDNowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoIDNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoIDNow.app/DemoIDNow";
+			};
+			name = Release;
+		};
+		5A76876821C2094600B72F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF9182ED4B926263AAB9F83 /* Pods-DemoIDNowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRTCB5WQ93;
+				INFOPLIST_FILE = DemoIDNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoIDNow;
+			};
+			name = Debug;
+		};
+		5A76876921C2094600B72F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AA93731AAE732C524A2315 /* Pods-DemoIDNowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRTCB5WQ93;
+				INFOPLIST_FILE = DemoIDNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoIDNow;
+			};
+			name = Release;
+		};
+		5A76877821C2163E00B72F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34650CE8A5DD0AF7937B3EA8 /* Pods-DemoIDNow2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRTCB5WQ93;
+				INFOPLIST_FILE = "DemoIDNow copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNow2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A76877921C2163E00B72F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039117CCBB01B05CE68A9EC8 /* Pods-DemoIDNow2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRTCB5WQ93;
+				INFOPLIST_FILE = "DemoIDNow copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.DemoIDNow.DemoIDNow2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A76873421C2094500B72F8C /* Build configuration list for PBXProject "DemoIDNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76875F21C2094600B72F8C /* Debug */,
+				5A76876021C2094600B72F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A76876121C2094600B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76876221C2094600B72F8C /* Debug */,
+				5A76876321C2094600B72F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A76876421C2094600B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76876521C2094600B72F8C /* Debug */,
+				5A76876621C2094600B72F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A76876721C2094600B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76876821C2094600B72F8C /* Debug */,
+				5A76876921C2094600B72F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A76877721C2163E00B72F8C /* Build configuration list for PBXNativeTarget "DemoIDNow2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76877821C2163E00B72F8C /* Debug */,
+				5A76877921C2163E00B72F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A76873121C2094500B72F8C /* Project object */;
+}
